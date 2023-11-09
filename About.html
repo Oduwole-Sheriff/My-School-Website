@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>UNIVERSITY WEBSITE DESIGN</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&family=IBM+Plex+Sans:wght@100;400;700&family=IBM+Plex+Serif:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logo.png.jpg"></a> 
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="course.html">Course</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>ABOUT US</h1>
+
+	</section>
+
+
+<!------about us content------>
+
+<section class="about-us">
+
+	<div class="row">
+		<div class="about-col">
+			<h1>We Are the world largest university</h1>
+			<p>University isn't just about delving deeper into chosen subjects, providing chances to shine in what you're good at and preparing for the next steps along your chosen career path. There are also opportunities to find new interests and develop new hobbies, both within and outside of your studies.</p>
+			<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="images/about.jpg">
+		</div>
+	</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!------FOOTER------>
+<section class="footer">
+	<h4>About Us</h4>
+	<p>We are the Best in the whole world, our school is the best, we train the <br>best student and we give them the best knowledge. </p>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i>by Sheriff</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+	
+<!----JavaScript for Toggle Menu--->
+
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right ="0";
+	} 
+	function hideMenu(){
+		navLinks.style.right = "-300px";
+	} 
+
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
